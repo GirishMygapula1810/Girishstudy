@@ -13,7 +13,7 @@ public class car {
          System.out.println("My Car " + color + " and " + model + " is ready ");
      }
      void drivingwheels(){
-         System.out.println("Driving" + model);
+         System.out.println("Driving" + color);
      }
 
          public static void main(String[] args){
