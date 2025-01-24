@@ -17,7 +17,7 @@ public class car {
      }
 
          public static void main(String[] args){
-             car car1 = new car("red" , "SUV");
+             car car1 = new car("red" , "Sedan");
              car car2 = new car("black" , "XUV");
              car1.drive();
              car2.drive();
