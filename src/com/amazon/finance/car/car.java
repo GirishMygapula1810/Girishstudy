@@ -12,11 +12,16 @@ public class car {
      void drive(){
          System.out.println("My Car " + color + " and " + model + " is ready ");
      }
+     void drivingwheels(){
+         System.out.println("Driving" + model);
+     }
+
          public static void main(String[] args){
              car car1 = new car("red" , "SUV");
              car car2 = new car("black" , "XUV");
              car1.drive();
              car2.drive();
+             car1.drivingwheels();
          }
 
 }
